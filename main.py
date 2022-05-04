@@ -98,7 +98,7 @@ real_price = np.array(real_price)
 real_price = real_price.reshape(real_price.shape[0], 1)
 
 
-plt.plot(real_price, color="red", label=f"Nhiệt Độ Thiệt")
+plt.plot(real_price, color="red", label=f"Nhiệt Độ Thực Tế")
 plt.plot(predict_prices, color="blue", label=f"Nhiệt Độ Dự Đoán")
 plt.title(f"Dự Đoán Nhiệt Độ")
 plt.xlabel("Step")
